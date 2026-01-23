@@ -20,12 +20,11 @@ import net.minecraft.world.phys.BlockHitResult;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Redirect;
 
 import java.util.function.Function;
 
 @Mixin(StationBlock.class)
-public class StationBlockMixin {
+public abstract class StationBlockMixin {
 	@WrapOperation(
 			method = "use",
 			at = @At(
@@ -34,7 +33,7 @@ public class StationBlockMixin {
 			)
 	)
 	// Allow directly inserting schedules into train station blocks by right-clicking with it in hand
-	private InteractionResult use(
+	private InteractionResult ct$useAllowDirectInsertSchedule(
 			StationBlock instance,
 			BlockGetter blockGetter,
 			BlockPos blockPos,

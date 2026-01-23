@@ -1,6 +1,6 @@
 package com.minhtyfresh.createless_trains;
 
-import com.simibubi.create.Create;
+import com.simibubi.create.CreateBuildInfo;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
 import net.fabricmc.api.ModInitializer;
@@ -20,7 +20,7 @@ public class CreatelessTrains implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Create addon mod [{}] is loading alongside Create [{}]!", NAME, Create.VERSION);
+		LOGGER.info("Create addon mod [{}] is loading alongside Create [{}]!", NAME, CreateBuildInfo.VERSION);
 		LOGGER.info(EnvExecutor.unsafeRunForDist(
 				() -> () -> "{} is accessing Porting Lib from the client!",
 				() -> () -> "{} is accessing Porting Lib from the server!"
