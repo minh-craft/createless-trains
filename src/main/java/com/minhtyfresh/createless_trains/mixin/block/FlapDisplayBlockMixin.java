@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(FlapDisplayBlock.class)
-public class FlapDisplayBlockMixin {
+public abstract class FlapDisplayBlockMixin {
 
 	@Inject(
 			method = "getMinimumRequiredSpeedLevel",
@@ -17,7 +17,7 @@ public class FlapDisplayBlockMixin {
 			cancellable = true,
 			remap = false)
 	// make display not require power
-	public void getMinimumRequiredSpeedLevel(CallbackInfoReturnable<IRotate.SpeedLevel> cir) {
+	public void ct$removePowerRequirement(CallbackInfoReturnable<IRotate.SpeedLevel> cir) {
 		cir.setReturnValue(IRotate.SpeedLevel.NONE);
 	}
 }

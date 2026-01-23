@@ -14,16 +14,16 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
 @Mixin(AllBlocks.class)
-public class AllBlocksMixin {
+public abstract class AllBlocksMixin {
 	@WrapOperation(
-			method = "lambda$static$376(Lnet/minecraft/world/item/DyeColor;)Lcom/tterrag/registrate/util/entry/BlockEntry;",
+			method = "lambda$static$436(Lnet/minecraft/world/item/DyeColor;)Lcom/tterrag/registrate/util/entry/BlockEntry;",
 			at = @At(
 				value = "INVOKE",
 					target = "Lcom/tterrag/registrate/builders/BlockBuilder;onRegisterAfter(Lnet/minecraft/resources/ResourceKey;Lcom/tterrag/registrate/util/nullness/NonNullConsumer;)Lcom/tterrag/registrate/builders/Builder;"
 			)
 	)
 	// Don't register seat item tooltips
-	private static Builder injected(BlockBuilder instance, ResourceKey resourceKey, NonNullConsumer nonNullConsumer, Operation<Builder> original) {
+	private static Builder ct$removeSeatItemTooltip(BlockBuilder instance, ResourceKey resourceKey, NonNullConsumer nonNullConsumer, Operation<Builder> original) {
 		return original.call(instance, resourceKey, NonNullConsumer.noop());
 	}
 }

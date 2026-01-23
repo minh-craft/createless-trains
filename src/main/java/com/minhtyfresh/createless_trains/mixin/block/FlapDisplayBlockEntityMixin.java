@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import java.util.List;
 
 @Mixin(FlapDisplayBlockEntity.class)
-public class FlapDisplayBlockEntityMixin {
+public abstract class FlapDisplayBlockEntityMixin {
 
 	@Shadow(remap = false)
 	public List<FlapDisplayLayout> lines;
@@ -26,7 +26,7 @@ public class FlapDisplayBlockEntityMixin {
 					target = "Ljava/util/List;iterator()Ljava/util/Iterator;"),
 			cancellable = true,
 			remap = false)
-	private void injected(CallbackInfo ci) {
+	private void ct$fixEdgeCase(CallbackInfo ci) {
 		if (this.lines == null) {
 			ci.cancel();
 		}

@@ -12,14 +12,14 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(WhistleBlock.class)
-public class WhistleBlockMixin {
+public abstract class WhistleBlockMixin {
 
 	@Inject(
 			method = "canSurvive",
 			at = @At("RETURN"),
 			cancellable = true)
 	// allow placing the whistle block anywhere, no longer tied to the fluid tank
-	public void canSurvive(BlockState pState, LevelReader pLevel, BlockPos pPos, CallbackInfoReturnable<Boolean> cir) {
+	public void ct$canAlwaysSurvive(BlockState pState, LevelReader pLevel, BlockPos pPos, CallbackInfoReturnable<Boolean> cir) {
 		cir.setReturnValue(true);
 	}
 }
