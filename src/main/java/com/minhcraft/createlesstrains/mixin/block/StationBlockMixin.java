@@ -1,8 +1,8 @@
-package com.minhtyfresh.createlesstrains.mixin.block;
+package com.minhcraft.createlesstrains.mixin.block;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import com.minhtyfresh.createlesstrains.mixin.block.helper.StationBlockEntityAccessor;
+import com.minhcraft.createlesstrains.mixin.block.helper.StationBlockEntityAccessor;
 import com.simibubi.create.AllItems;
 import com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods;
 import com.simibubi.create.content.trains.station.StationBlock;

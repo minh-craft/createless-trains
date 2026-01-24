@@ -1,4 +1,4 @@
-package com.minhtyfresh.createlesstrains.mixin.ponder.scenes;
+package com.minhcraft.createlesstrains.mixin.ponder.scenes;
 
 import com.simibubi.create.AllItems;
 

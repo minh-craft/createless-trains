@@ -1,4 +1,4 @@
-package com.minhtyfresh.createlesstrains;
+package com.minhcraft.createlesstrains;
 
 import com.simibubi.create.CreateBuildInfo;
 

@@ -1,4 +1,4 @@
-package com.minhtyfresh.createlesstrains.mixin.block;
+package com.minhcraft.createlesstrains.mixin.block;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;

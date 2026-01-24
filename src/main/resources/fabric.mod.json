@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.minhtyfresh.createlesstrains.CreatelessTrains"
+      "com.minhcraft.createlesstrains.CreatelessTrains"
     ]
   },
   "mixins": [

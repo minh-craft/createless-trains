@@ -1,4 +1,4 @@
-package com.minhtyfresh.createlesstrains.mixin.block;
+package com.minhcraft.createlesstrains.mixin.block;
 
 import com.simibubi.create.content.kinetics.base.IRotate;
 import com.simibubi.create.content.trains.display.FlapDisplayBlock;
