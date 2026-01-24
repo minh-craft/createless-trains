@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "createless_trains",
+  "id": "createless-trains",
   "version": "${version}",
   "name": "Create-less Trains",
   "description": "Make train accessories like the display board and train whistle usable independent of the rest of Create. Also remove non train related ponders.",
@@ -8,19 +8,18 @@
     "minh-craft"
   ],
   "contact": {
-    "homepage": "https://github.com/minh-craft/createless_trains",
-    "sources": "https://github.com/minh-craft/createless_trains"
+    "homepage": "https://github.com/minh-craft/createless-trains"
   },
-  "license": "CC0",
-  "icon": "assets/createless_trains/icon.png",
+  "license": "MPL 2.0",
+  "icon": "assets/createless-trains/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.minhtyfresh.createless_trains.CreatelessTrains"
+      "com.minhtyfresh.createlesstrains.CreatelessTrains"
     ]
   },
   "mixins": [
-    "createless_trains.mixins.json"
+    "createless-trains.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",

@@ -1,4 +1,4 @@
-package com.minhtyfresh.createless_trains.mixin.ponder.scenes;
+package com.minhtyfresh.createlesstrains.mixin.ponder.scenes;
 
 import com.simibubi.create.AllItems;
 

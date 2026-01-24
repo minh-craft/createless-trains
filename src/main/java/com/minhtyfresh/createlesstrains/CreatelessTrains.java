@@ -1,4 +1,4 @@
-package com.minhtyfresh.createless_trains;
+package com.minhtyfresh.createlesstrains;
 
 import com.simibubi.create.CreateBuildInfo;
 
@@ -26,7 +26,12 @@ public class CreatelessTrains implements ModInitializer {
 				() -> () -> "{} is accessing Porting Lib from the server!"
 		), NAME);
 
-		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(CreatelessTrains.id("createless_trains"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED));
+		FabricLoader
+				.getInstance()
+				.getModContainer(MOD_ID)
+				.ifPresent(
+						modContainer ->
+								ResourceManagerHelper.registerBuiltinResourcePack(CreatelessTrains.id(MOD_ID), modContainer, ResourcePackActivationType.ALWAYS_ENABLED));
 
 	}
 

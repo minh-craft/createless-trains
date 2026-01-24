@@ -1,4 +1,4 @@
-package com.minhtyfresh.createless_trains.mixin.embeddium_compat;
+package com.minhtyfresh.createlesstrains.mixin.embeddium_compat;
 
 import com.llamalad7.mixinextras.injector.v2.WrapWithCondition;
 import com.simibubi.create.compat.sodium.SodiumCompat;

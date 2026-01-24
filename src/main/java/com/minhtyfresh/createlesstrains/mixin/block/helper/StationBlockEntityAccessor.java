@@ -1,4 +1,4 @@
-package com.minhtyfresh.createless_trains.mixin.block.helper;
+package com.minhtyfresh.createlesstrains.mixin.block.helper;
 
 import com.simibubi.create.content.trains.station.StationBlockEntity;
 
