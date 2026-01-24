@@ -33,6 +33,7 @@ This mod was developed using this template: https://github.com/Fabricators-of-Cr
 
 ## Credits
 - Thank you to https://github.com/skycatminepokie for helping me figure out mixins for this mod on the Fabric discord!
+- Display Board back texture edited version of https://modrinth.com/resourcepack/create-world-of-color by @gracedatgirl
 
 ## License
 
