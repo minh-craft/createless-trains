@@ -14,8 +14,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CreatelessTrains implements ModInitializer {
-	public static final String MOD_ID = "createless_trains";
-	public static final String NAME = "Create-less Trains";
+	public static final String MOD_ID = "createless-trains";
+	public static final String NAME = "Createless Trains";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
 	@Override
