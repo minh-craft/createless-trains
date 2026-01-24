@@ -36,4 +36,4 @@ This mod was developed using this template: https://github.com/Fabricators-of-Cr
 
 ## License
 
-This mod is available under the CC0 license. Feel free to do as you wish with it.
+This mod is available under the MPL 2.0 license https://www.mozilla.org/en-US/MPL/2.0/
