@@ -4,6 +4,7 @@
   "package": "com.minhcraft.createlesstrains.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "automatic_door.SlidingDoorMovementBehaviorMixin",
     "block.AllBlockEntityTypesMixin",
     "block.AllBlocksMixin",
     "block.FlapDisplayBlockEntityMixin",

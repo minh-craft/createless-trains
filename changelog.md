@@ -1,3 +1,11 @@
+## v1.3.1
+
+### Changed
+- Fixed vanilla doors not playing the close door sound.
+- Increased volume of doors opening and closing to same volume as regular doors opening and closing.
+
+---
+
 ## v1.3.0
 
 ### Added
