@@ -36,7 +36,7 @@ public abstract class TrainStationScenesMixin {
 			at = @At("HEAD"),
 			cancellable = true,
 			remap = false)
-	private static void ct$assemblyOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$assemblyOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
 		CreateSceneBuilder scene = new CreateSceneBuilder(builder);
 		scene.title("train_assembly", "Assembling Trains");
 		scene.configureBasePlate(1, 0, 12);
@@ -229,7 +229,7 @@ public abstract class TrainStationScenesMixin {
 			at = @At("HEAD"),
 			cancellable = true,
 			remap = false)
-	private static void ct$autoScheduleOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$autoScheduleOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
 		CreateSceneBuilder scene = new CreateSceneBuilder(builder);
 
 		scene.title("auto_schedule", "Stations & Scheduling");

@@ -49,7 +49,7 @@ public abstract class AllCreatePonderTagsMixin {
 			remap = false
 	)
 	// register only the ponder indexes related to trains, skip registering other ponders
-	private static void ct$registerOnlyTrainPonderTags(PonderTagRegistrationHelper<ResourceLocation> helper, CallbackInfo ci) {
+	private static void createless_trains$registerOnlyTrainPonderTags(PonderTagRegistrationHelper<ResourceLocation> helper, CallbackInfo ci) {
 		PonderTagRegistrationHelper<RegistryEntry<?>> HELPER = helper.withKeyFunction(RegistryEntry::getId);
 
 		PonderTagRegistrationHelper<ItemLike> itemHelper = helper.withKeyFunction(
@@ -122,7 +122,7 @@ public abstract class AllCreatePonderTagsMixin {
 			cancellable = true,
 			remap = false
 	)
-	private static void ct$clinitOverride(CallbackInfo ci){
+	private static void createless_trains$clinitOverride(CallbackInfo ci){
 		TRAIN_RELATED = loc("train_related");
 		DISPLAY_SOURCES = loc("display_sources");
 		DISPLAY_TARGETS = loc("display_targets");

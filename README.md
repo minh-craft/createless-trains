@@ -10,6 +10,8 @@ Specific Changes:
 - All ponders not related to trains have been removed, and train related ponders have all been edited to remove blocks and text and mechanics related to other non train components in Create.
 - Seat tooltips have been removed.
 - The Wrench tooltip now only describes how it interacts with trains.
+- Vanilla doors now open and close automatically on trains when arriving and leaving stations, just like Create's train doors and framed glass doors.
+- Removed "Deliver Package" and "Receive Package" from Train Schedules
 
 It also enables Embeddium compatibility by disabling a Sodium specific fix for the saw sprite texture atlas which crashes when Embeddium is loaded with Create.
 Embeddium compatibility still requires overriding Flywheel's fabric loader dependency marking itself as breaking with embeddium.

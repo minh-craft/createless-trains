@@ -35,7 +35,7 @@ public abstract class AllBlockEntityTypesMixin {
 			remap = false
 	)
 	// Remove cogs from Display Board by removing ".instance(() -> { return ShaftlessCogwheelInstance::new; })"
-	private static <T extends BlockEntity, P> CreateBlockEntityBuilder<T, P> ct$removeCogFromDisplayBoard(CreateBlockEntityBuilder instance, NonNullSupplier<SimpleBlockEntityVisualFactory<T>> visualFactory, Operation<CreateBlockEntityBuilder<T, P>> original) {
+	private static <T extends BlockEntity, P> CreateBlockEntityBuilder<T, P> createless_trains$removeCogFromDisplayBoard(CreateBlockEntityBuilder instance, NonNullSupplier<SimpleBlockEntityVisualFactory<T>> visualFactory, Operation<CreateBlockEntityBuilder<T, P>> original) {
 		return instance;
 	}
 }

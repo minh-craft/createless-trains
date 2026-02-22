@@ -30,7 +30,7 @@ public abstract class SteamScenesMixin {
 			cancellable = true,
 			remap = false
 	)
-	private static void ct$whistleOverride(SceneBuilder scene, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$whistleOverride(SceneBuilder scene, SceneBuildingUtil util, CallbackInfo ci) {
 		scene.title("steam_whistle", "Setting up Steam Whistles");
 		scene.configureBasePlate(0, 0, 5);
 		scene.showBasePlate();

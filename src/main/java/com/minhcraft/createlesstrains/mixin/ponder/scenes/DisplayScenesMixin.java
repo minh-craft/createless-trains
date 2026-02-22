@@ -34,7 +34,7 @@ public abstract class DisplayScenesMixin {
 			cancellable = true,
 			remap = false
 	)
-	private static void ct$linkOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$linkOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
 		CreateSceneBuilder scene = new CreateSceneBuilder(builder);
 
 		scene.title("display_link", "Setting up Display Links");
@@ -190,7 +190,7 @@ public abstract class DisplayScenesMixin {
 			cancellable = true,
 			remap = false
 	)
-	private static void ct$boardOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$boardOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
 		CreateSceneBuilder scene = new CreateSceneBuilder(builder);
 
 		scene.title("display_board", "Using Display Boards");

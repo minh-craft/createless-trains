@@ -35,7 +35,7 @@ public abstract class TrackObserverScenesMixin {
 			cancellable = true,
 			remap = false
 	)
-	private static void ct$observeOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$observeOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
 		CreateSceneBuilder scene = new CreateSceneBuilder(builder);
 
 		scene.title("track_observer", "Detecting Trains");

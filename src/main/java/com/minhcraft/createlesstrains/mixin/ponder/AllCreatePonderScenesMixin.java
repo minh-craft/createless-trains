@@ -39,7 +39,7 @@ public abstract class AllCreatePonderScenesMixin {
 			cancellable = true,
 			remap = false)
 	// register only the ponders related to trains, skip all other ponder registrations
-	private static void ct$registerOnlyTrainPonders(PonderSceneRegistrationHelper<ResourceLocation> helper, CallbackInfo ci){
+	private static void createless_trains$registerOnlyTrainPonders(PonderSceneRegistrationHelper<ResourceLocation> helper, CallbackInfo ci){
 		PonderSceneRegistrationHelper<ItemProviderEntry<?>> HELPER = helper.withKeyFunction(RegistryEntry::getId);
 
 //		// Redstone

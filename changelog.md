@@ -1,3 +1,11 @@
+## v1.3.0
+
+### Added
+- Vanilla doors now open and close automatically on trains when arriving and leaving stations, just like Create's train doors and framed glass doors.
+- Removed "Deliver Package" and "Receive Package" from Train Schedules
+
+---
+
 ## v1.2.0
 
 ### Changed

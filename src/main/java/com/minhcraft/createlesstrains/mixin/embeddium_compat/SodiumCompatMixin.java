@@ -20,7 +20,7 @@ public abstract class SodiumCompatMixin {
 	// This feature is only available in the latest Sodium, and this causes a crash when Embeddium is being used instead of Sodium
 	// The saw block isn't intended to be used with this mod, so disabling this allows for Embeddium compatibility
 	// Flywheel marking itself as breaking with embeddium still needs to be overridden in config/fabric_loader_dependencies.json
-	private static <T> boolean ct$disableSodiumTextureAtlasFixSawSprite(Event instance, T t) {
+	private static <T> boolean createless_trains$disableSodiumTextureAtlasFixSawSprite(Event instance, T t) {
 		return false;
 	}
 }

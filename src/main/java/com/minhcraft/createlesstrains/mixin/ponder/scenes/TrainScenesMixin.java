@@ -35,7 +35,7 @@ public abstract class TrainScenesMixin {
 			at = @At("HEAD"),
 			cancellable = true,
 			remap = false)
-	private static void ct$scheduleOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$scheduleOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
 		CreateSceneBuilder scene = new CreateSceneBuilder(builder);
 
 		scene.title("train_schedule", "Using Train Schedules");

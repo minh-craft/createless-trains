@@ -17,7 +17,7 @@ public abstract class FlapDisplayBlockMixin {
 			cancellable = true,
 			remap = false)
 	// make display not require power
-	public void ct$removePowerRequirement(CallbackInfoReturnable<IRotate.SpeedLevel> cir) {
+	public void createless_trains$removePowerRequirement(CallbackInfoReturnable<IRotate.SpeedLevel> cir) {
 		cir.setReturnValue(IRotate.SpeedLevel.NONE);
 	}
 }

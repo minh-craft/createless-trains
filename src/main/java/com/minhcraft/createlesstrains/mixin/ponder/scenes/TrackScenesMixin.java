@@ -34,7 +34,7 @@ public abstract class TrackScenesMixin {
 			cancellable = true,
 			remap = false
 	)
-	private static void ct$placementOverride(SceneBuilder scene, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$placementOverride(SceneBuilder scene, SceneBuildingUtil util, CallbackInfo ci) {
 		scene.title("track_placement", "Placing Train Tracks");
 		scene.configureBasePlate(0, 0, 15);
 		scene.scaleSceneView(0.5F);
@@ -188,7 +188,7 @@ public abstract class TrackScenesMixin {
 			cancellable = true,
 			remap = false
 	)
-	private static void ct$chunksOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$chunksOverride(SceneBuilder builder, SceneBuildingUtil util, CallbackInfo ci) {
 		CreateSceneBuilder scene = new CreateSceneBuilder(builder);
 
 		scene.title("track_chunks", "Traversing unloaded Chunks");

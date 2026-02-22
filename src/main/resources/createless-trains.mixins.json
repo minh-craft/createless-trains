@@ -21,7 +21,8 @@
     "ponder.scenes.TrackObserverScenesMixin",
     "ponder.scenes.TrackScenesMixin",
     "ponder.scenes.TrainScenesMixin",
-    "ponder.scenes.TrainStationScenesMixin"
+    "ponder.scenes.TrainStationScenesMixin",
+    "schedule.ScheduleMixin"
   ],
   "client": [
   ],

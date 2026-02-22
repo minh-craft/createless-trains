@@ -20,7 +20,7 @@ public abstract class WhistleBlockEntityMixin {
 	)
 	// whistle powered state no longer relies on fluid tanks or heat sources underneath
 	// NOTE: this version has animations that DO work
-	private boolean ct$setAlwaysPowerable(boolean value) {
+	private boolean createless_trains$setAlwaysPowerable(boolean value) {
 		return this.isPowered();
 	}
 
@@ -33,7 +33,7 @@ public abstract class WhistleBlockEntityMixin {
 //	)
 //	// whistle powered state no longer relies on fluid tanks or heat sources underneath
 //	// NOTE: this version has animations that DON'T work
-//	private void ct$setAlwaysPowerable(CallbackInfo ci, @Local LocalBooleanRef localRef) {
+//	private void createless_trains$setAlwaysPowerable(CallbackInfo ci, @Local LocalBooleanRef localRef) {
 //		localRef.set(this.isPowered());
 //	}
 }

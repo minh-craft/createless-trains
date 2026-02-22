@@ -23,7 +23,7 @@ public abstract class AllBlocksMixin {
 			)
 	)
 	// Don't register seat item tooltips
-	private static Builder ct$removeSeatItemTooltip(BlockBuilder instance, ResourceKey resourceKey, NonNullConsumer nonNullConsumer, Operation<Builder> original) {
+	private static Builder createless_trains$removeSeatItemTooltip(BlockBuilder instance, ResourceKey resourceKey, NonNullConsumer nonNullConsumer, Operation<Builder> original) {
 		return original.call(instance, resourceKey, NonNullConsumer.noop());
 	}
 }

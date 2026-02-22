@@ -26,7 +26,7 @@ public abstract class FlapDisplayBlockEntityMixin {
 					target = "Ljava/util/List;iterator()Ljava/util/Iterator;"),
 			cancellable = true,
 			remap = false)
-	private void ct$fixEdgeCase(CallbackInfo ci) {
+	private void createless_trains$fixEdgeCase(CallbackInfo ci) {
 		if (this.lines == null) {
 			ci.cancel();
 		}

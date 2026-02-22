@@ -19,7 +19,7 @@ public abstract class WhistleBlockMixin {
 			at = @At("RETURN"),
 			cancellable = true)
 	// allow placing the whistle block anywhere, no longer tied to the fluid tank
-	public void ct$canAlwaysSurvive(BlockState pState, LevelReader pLevel, BlockPos pPos, CallbackInfoReturnable<Boolean> cir) {
+	public void createless_trains$canAlwaysSurvive(BlockState pState, LevelReader pLevel, BlockPos pPos, CallbackInfoReturnable<Boolean> cir) {
 		cir.setReturnValue(true);
 	}
 }

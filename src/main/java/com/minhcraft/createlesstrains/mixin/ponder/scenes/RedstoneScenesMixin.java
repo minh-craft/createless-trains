@@ -34,7 +34,7 @@ public abstract class RedstoneScenesMixin {
 			cancellable = true,
 			remap = false
 	)
-	private static void ct$nixieTubeOverride(SceneBuilder scene, SceneBuildingUtil util, CallbackInfo ci) {
+	private static void createless_trains$nixieTubeOverride(SceneBuilder scene, SceneBuildingUtil util, CallbackInfo ci) {
 		scene.title("nixie_tube", "Using Nixie Tubes");
 		scene.configureBasePlate(0, 0, 5);
 		scene.world().showSection(util.select().layer(0).add(util.select().fromTo(2, 1, 1, 2, 1, 2)), Direction.UP);

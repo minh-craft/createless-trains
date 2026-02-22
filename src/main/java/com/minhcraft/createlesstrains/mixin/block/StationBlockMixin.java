@@ -33,7 +33,7 @@ public abstract class StationBlockMixin {
 			)
 	)
 	// Allow directly inserting schedules into train station blocks by right-clicking with it in hand
-	private InteractionResult ct$useAllowDirectInsertSchedule(
+	private InteractionResult createless_trains$useAllowDirectInsertSchedule(
 			StationBlock instance,
 			BlockGetter blockGetter,
 			BlockPos blockPos,
